@@ -43,7 +43,19 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
-
+  bloc: ^8.1.4
+  cupertino_icons: ^1.0.0
+  equatable: ^2.0.3
+  modal_bottom_sheet: ^3.0.0
+  flutter_bloc: ^8.1.5
+  google_fonts: ^6.2.1
+  http: ^1.2.1
+  image_picker: ^1.1.0
+  intl: ^0.19.0
+  path: ^1.8.0
+  rethink_db_ns: ^0.0.4
+  shared_preferences: ^2.0.6
+  sqflite: ^2.0.0+3
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is
   # activated in the `analysis_options.yaml` file located at the root of your
