@@ -1,0 +1,10 @@
+type User @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  first_name: String
+  last_name: String
+  gender: String
+  bio: String
+  picture: AWSURL
+  posted_today: Boolean
+  age: Int
+} 
