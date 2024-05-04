@@ -18,7 +18,7 @@ Future<void> main() async {
 Future<void> _configureAmplify() async {
   try {
     await Amplify.addPlugin(AmplifyAuthCognito());
-    await Amplify.configure(outputs);
+    await Amplify.configure(amplifyconfig);
     safePrint('Successfully configured');
   } on Exception catch (e) {
     safePrint('Error configuring Amplify: $e');
@@ -38,7 +38,7 @@ class MyApp extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 SignOutButton(),
-                Text('TODO Application'),
+                Text('TOD Application'),
               ],
             ),
           ),
